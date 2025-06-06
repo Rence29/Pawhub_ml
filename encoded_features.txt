@@ -1,0 +1,10 @@
+dog_age
+house_type_Medium
+house_type_Small
+family_composition_With Kids
+lifestyle_Sedentary
+pet_experience_Yes
+dog_size_Medium
+dog_size_Small
+dog_behavior_Calm
+dog_behavior_Energetic
