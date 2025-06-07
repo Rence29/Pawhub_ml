@@ -38,13 +38,13 @@ def preprocess_input(data):
 
     Expected input 'data' dictionary keys (matching original CSV column names):
     - 'dog_age': integer (e.g., 2, 5)
-    - 'house_type': string (e.g., 'Medium', 'Apartment', 'Small')
-    - 'family_composition': string (e.g., 'With Kids', 'Single', 'Couple')
-    - 'lifestyle': string (e.g., 'Sedentary', 'Active', 'Moderate')
+    - 'house_type': string (e.g., 'Medium', 'Large', 'Small')
+    - 'family_composition': string (e.g., 'With kids', 'No kids')
+    - 'lifestyle': string (e.g., 'Sedentary', 'Active')
     - 'pet_experience': string (e.g., 'Yes', 'No')
     - 'dog_size': string (e.g., 'Small', 'Medium', 'Large')
     - 'dog_behavior': string (e.g., 'Aggressive', 'Energetic', 'Calm')
-    - 'health_condition': string (e.g., 'Healthy', 'Special Needs')
+    - 'health_condition': string (e.g., 'Healthy')
     """
     processed_data_dict = {}
 
