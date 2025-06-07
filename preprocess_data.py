@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 # --- Configuration ---
-DATA_FILE = 'rf_dataset.csv'  # your new CSV file
+DATA_FILE = 'rf_dataset_updated.csv'  # your new CSV file
 PROCESSED_DATA_FILE = 'dog_adoption_preprocessed.csv'
 ENCODED_FEATURES_FILE = 'encoded_features.txt'
 
@@ -38,7 +38,7 @@ categorical_cols = [
     'dog_size', 'dog_behavior', 'health_condition'
 ]
 
-df_encoded = pd.get_dummies(df, columns=categorical_cols, drop_first=True)
+df_encoded = pd.get_dummies(df, columns=categorical_cols, drop_first=False)
 
 print("One-Hot Encoding complete.")
 print("\nFirst 5 rows of preprocessed data:")

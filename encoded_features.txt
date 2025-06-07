@@ -1,10 +1,17 @@
 dog_age
+house_type_Large
 house_type_Medium
 house_type_Small
-family_composition_With Kids
+family_composition_No_Kids
+family_composition_With_Kids
+lifestyle_Active
 lifestyle_Sedentary
+pet_experience_No
 pet_experience_Yes
+dog_size_Large
 dog_size_Medium
 dog_size_Small
+dog_behavior_Aggressive
 dog_behavior_Calm
 dog_behavior_Energetic
+health_condition_Healthy
